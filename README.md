@@ -5,7 +5,7 @@
 The Elastic Wave Propagation is a `MATLAB` script simulates the propagation of both **longitudinal** and **transverse** *elastic waves* through a one-dimensional medium composed of multiple bodies (oscillators). The project uses the finite difference method to solve the wave equation and visualizes the displacement of the medium over time for both types of waves with dynamic plots.
 
 <p align="center">
-    <a href="https://github.com/justin-marian/heat-equation/tree/main/demo/simulation.mp4">
+    <a href="https://github.com/justin-marian/elastic-wave/tree/main/demo/simulation.mp4">
         <img src="images/waves.png" alt="Waves Longitudinal-Transverse Types" style="width: 75%; height: auto;">
     </a>
 </p>
