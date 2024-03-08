@@ -23,7 +23,7 @@ The Elastic Wave Propagation is a `MATLAB` script simulates the propagation of b
 - **Spring Constants:** Spring constants represent the stiffness of the medium and are assigned to each oscillator.
 - **Discrete Time:** Time is discretized to ensure numerical stability and accuracy in the simulation.
 - **Initial Displacement:** Initial displacement values for both longitudinal and transverse waves are set to zero.
-- **Wave Parameters:** Parameters such as amplitude, angular frequency, and external forces define wave propagation.
+- **Wave Parameters:** Parameters such as amplitude and angular frequency which define wave propagation.
 
 ## Boundry Conditions
 
