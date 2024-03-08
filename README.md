@@ -6,7 +6,7 @@ The Elastic Wave Propagation is a `MATLAB` script simulates the propagation of b
 
 <p align="center">
     <a href="https://github.com/justin-marian/heat-equation/tree/main/demo/simulation.mp4">
-        <img src="images/waves.png" alt="Waves Longitudinal-Transverse Types" style="max-width: 100%; height: auto;">
+        <img src="images/waves.png" alt="Waves Longitudinal-Transverse Types" style="max-width: 75%; height: auto;">
     </a>
 </p>
 
