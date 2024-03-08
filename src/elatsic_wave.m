@@ -40,10 +40,8 @@ function elastic_wave(P, m)
     % Creating a heterogeneous medium
     
     % Discrete time
-    ti = 0;
-    tf = 200 * pi * sqrt(mean(m) / mean(k));
-    N = 100000;
-    t = linspace(ti, tf, N);
+    ti = 0; tf = 200 * pi * sqrt(mean(m) / mean(k));
+    N = 100000; t = linspace(ti, tf, N);
     dt = t(2) - t(1);
     
     % Initializing displacement for both
@@ -52,8 +50,7 @@ function elastic_wave(P, m)
     etaT = zeros(N, P);
     
     % Wave parameters
-    a = 0.5;
-    A = a;
+    a = 0.5; A = a;
     OM = pi / 2;
     etas = A * sin(OM * t);
     

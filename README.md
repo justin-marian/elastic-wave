@@ -2,7 +2,7 @@
 
 ## Description
 
-The Elastic Wave Propagation is a `MATLAB` script simulates the propagation of both **longitudinal** and **transverse** *elastic waves* through a one-dimensional medium composed of multiple bodies (oscillators). It uses the finite difference method to solve the wave equation and visualizes the displacement of the medium over time for both types of waves.
+The Elastic Wave Propagation is a `MATLAB` script simulates the propagation of both **longitudinal** and **transverse** *elastic waves* through a one-dimensional medium composed of multiple bodies (oscillators). The project uses the finite difference method to solve the wave equation and visualizes the displacement of the medium over time for both types of waves with dynamic plots.
 
 <p align="center">
     <a href="https://github.com/justin-marian/heat-equation/tree/main/demo/simulation.mp4">
@@ -16,7 +16,7 @@ The Elastic Wave Propagation is a `MATLAB` script simulates the propagation of b
 - **`m` (Masses):** Specifies individual body masses, enabling heterogeneous simulations.
 - **`k` (Stiffness):** Sets medium stiffness, impacting wave behavior.
 - **`N` (Discrete Time):** Determines temporal resolution for stability and accuracy.
-- **Wave Parameters:** Define amplitude, frequency, and forces for precise wave control.
+- **Wave Parameters:** Specify **amplitude**, **frequency**, and **forces** for accurate wave control and customization. Adjust parameters according to specific simulation requirements.
 
 ## Simulation Seetings
 
@@ -39,10 +39,11 @@ The Elastic Wave Propagation is a `MATLAB` script simulates the propagation of b
 
 ## Usage
 
-- Define the necessary physical parameters such as:
-  - the number of bodies (**P**) and
-  - the array of masses (**m**).
-- Run the script `elastic_wave(P, m)`.
+- **Define Physical Parameters:**
+  - Number of bodies (**P**) in the medium.
+  - An array of masses (**m**) for the bodies, ensuring each body has a corresponding mass value.
+- **Run the Script:**
+  - Execute the script `elastic_wave(P, m)`, in **MATLAB**.
 
 **Example:**
 
@@ -52,3 +53,8 @@ m = ones(1, P);         % Array of masses for the bodies
 m(P/2 : P) = 0.25;      % Set different masses for the bodies
 elastic_wave(P, m);     % Run the script
 ```
+
+**Explanation:**
+
+This example initializes the simulation with **120 oscillators**, each having a mass of **1 kg**. The masses of the oscillators in the second half of the medium are then set to **0.25 kg**.
+Finally, the `elastic_wave` function is called to execute the simulation. Adjust the parameters according to your specific simulation requirements.
